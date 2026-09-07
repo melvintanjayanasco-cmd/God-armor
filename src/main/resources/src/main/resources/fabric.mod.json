@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "godarmor",
+  "version": "${version}",
+  "name": "God Netherite Armor",
+  "description": "Powerful craftable God Netherite Armor for Minecraft 1.21.1.",
+  "authors": ["Melvin"],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.godarmor.GodArmorMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
